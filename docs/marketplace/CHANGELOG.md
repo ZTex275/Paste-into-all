@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.0
+
+### Changed
+
+- **New icon.** The chat bubble of the first releases is replaced by a clipboard with a `</>` code mark and an arrow pointing into the target application — the same picture at every size, from the 16 px menu icon to the marketplace card. The indigo‑to‑violet brand gradient is kept.
+
+### Fixed
+
+- The package is now built with the Visual Studio 2026 SDK build tools (`Microsoft.VSSDK.BuildTools` 18.x). A VSIX built with the 17.x tools lacks the `sdk` marker the Marketplace validates, so publishing failed with *“Your extension targets API version 18.0 or greater but was not built with an up-to-date VSSDK”*.
+
 ## 1.3.0
 
 ### Changed
@@ -11,10 +21,6 @@
 ### Added
 
 - The description states explicitly that the target process must already be open, and that the extension has been verified with browsers, OpenCode, VS Code and Notepad.
-
-### Fixed
-
-- The package is now built with the Visual Studio 2026 SDK build tools (`Microsoft.VSSDK.BuildTools` 18.x). A VSIX built with the 17.x tools lacks the `sdk` marker the Marketplace validates, so publishing failed with *“Your extension targets API version 18.0 or greater but was not built with an up-to-date VSSDK”*.
 
 ## 1.2.0
 

@@ -1,4 +1,4 @@
-# Marketplace listing metadata
+﻿# Marketplace listing metadata
 
 Copy‑paste values for the Visual Studio Marketplace **Edit extension** form.
 `<…>` placeholders must be replaced with the final values.
@@ -9,7 +9,7 @@ Copy‑paste values for the Visual Studio Marketplace **Edit extension** form.
 | --- | --- |
 | Extension ID | `PasteIntoAll.7c1f8a52-9b0e-4c1d-8f3a-2d6e5b4a9c71` |
 | Publisher | `ZTex275` |
-| Version | `1.3.0` |
+| Version | `1.4.0` |
 | Category | `Coding` |
 | Language | `English` (localized into Russian by the language pack) |
 | Pricing | Free |

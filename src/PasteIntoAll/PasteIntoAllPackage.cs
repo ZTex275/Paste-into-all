@@ -14,7 +14,7 @@ namespace PasteIntoAll
     /// Entry point of the extension. Registers the commands and the options page.
     /// </summary>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
-    [InstalledProductRegistration("Paste into all", "Pastes the selected code into OpenCode or any other application.", "1.3.0")]
+    [InstalledProductRegistration("Paste into all", "Pastes the selected code into OpenCode or any other application.", "1.4.0")]
     [ProvideMenuResource("Menus.ctmenu", 1)]
     [ProvideOptionPage(typeof(PasteIntoAllOptionsPage), "Paste into all", "General", 0, 0, true)]
     [ProvideAutoLoad(UIContextGuids80.NoSolution, PackageAutoLoadFlags.BackgroundLoad)]
